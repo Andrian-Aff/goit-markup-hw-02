@@ -1,19 +1,31 @@
-body {
-}
-
+/*===============Header======================*/
 .navigation {
 }
 .logo {
 }
 
-.contacts {
+.navigation-link {
+Font family: 'Roboto', sans-serif;
+Font style: Medium;
+Font size: 14px;
+Line height: 16px;
+Line height: 100%;
+Align: Left;
+Vertical align: Top;
+Letter spacing: 2%;
+color: #212121;
+}
+
+.contacts-link {
   color: #757575;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #2196f3;
 }
+
+/*===============End Header======================*/
 
 .hero-section {
   background-color: #2f303a;
@@ -33,6 +45,7 @@ body {
 
 .list {
   list-style: none;
+  font-style: normal;
 }
 
 .footer {
