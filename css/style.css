@@ -1,3 +1,20 @@
+body {
+}
+
+.navigation {
+}
+.logo {
+}
+
+.contacts {
+  color: #757575;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+
 .hero-section {
   background-color: #2f303a;
 }
@@ -5,7 +22,23 @@
   color: #fff;
 }
 
-.btn-hero {
+.modal-btn {
   color: #fff;
   background-color: #2196f3;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  font-style: normal;
 }
