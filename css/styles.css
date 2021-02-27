@@ -187,4 +187,19 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+
+.progect-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.progect-type {
+  font-size: 16px;
+  line-height: 2.25x;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
 /*==================END PORTFOLIO=======================*/
