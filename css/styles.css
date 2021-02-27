@@ -2,12 +2,16 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --description-color: #757575;
+  --sections-backgroud-color: #2f303a;
 }
 
 body {
   font-family: var(--main-font);
+  color: var(--main-color);
 }
-/*===============Header======================*/
+/*===============HEADER======================*/
 
 .logo {
   font-family: var(--secondary-font);
@@ -28,7 +32,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -40,7 +44,7 @@ body {
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--description-color);
 }
 
 .contacts-link:hover,
@@ -48,11 +52,11 @@ body {
   color: var(--accent-color);
 }
 
-/*===============End Header======================*/
+/*===============END HEADER======================*/
 
-/*===============Hero======================*/
+/*===============HERO======================*/
 .hero-section {
-  background-color: #2f303a;
+  background-color: var(--sections-backgroud-color);
 }
 .hero-title {
   font-weight: 900;
@@ -66,7 +70,8 @@ body {
 }
 
 .modal-btn {
-  font-weight: 900;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 187% */
@@ -77,16 +82,57 @@ body {
   color: #ffffff;
   background-color: var(--accent-color);
 }
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
 
-/*===============End Hero======================*/
+/*===============END HERO======================*/
 
+/*===============FEATURE SECTION==========================*/
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.features-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+/*===============END FEATURE SECTION======================*/
+
+/*===============SECTION OUR TEAM======================*/
+.members-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.members-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+/*===============END SECTION OUR TEAM======================*/
+
+/*===============COMPONENTS======================*/
 .sections-title {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .link {
@@ -102,10 +148,14 @@ body {
   font-style: normal;
 }
 
-/*==================Footer=======================*/
+.current {
+  color: var(--accent-color);
+}
+/*===============END COMPONENTS======================*/
+/*==================FOOTER=======================*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--sections-backgroud-color);
 }
 
 .bottom-logo {
@@ -118,4 +168,23 @@ body {
 .footer-link-address {
   color: rgba(255, 255, 255, 0.6);
 }
-/*===============End Footer======================*/
+/*===============END FOOTER======================*/
+
+/*==================PORTFOLIO=======================*/
+.btm-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: #f5f4fa;
+}
+.btm-portfolio:hover,
+.btm-portfolio:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/*==================END PORTFOLIO=======================*/
