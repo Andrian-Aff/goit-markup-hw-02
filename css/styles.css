@@ -1,21 +1,29 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font);
+}
 /*===============Header======================*/
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.first-part-logo {
+.top-logo {
   color: #000;
 }
 
 .navigation-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
@@ -24,16 +32,20 @@
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*===============End Header======================*/
@@ -43,16 +55,39 @@
   background-color: #2f303a;
 }
 .hero-title {
-  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .modal-btn {
-  color: #fff;
-  background-color: #2196f3;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 /*===============End Hero======================*/
 
+.sections-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
 .link {
   text-decoration: none;
@@ -67,14 +102,13 @@
   font-style: normal;
 }
 
-
-}
 /*==================Footer=======================*/
+
 .footer {
- background-color: black;
+  background-color: #2f303a;
 }
 
-.second-part-logo {
+.bottom-logo {
   color: #fff;
 }
 
