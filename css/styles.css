@@ -112,14 +112,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 .members-position {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
@@ -150,6 +148,10 @@ body {
 
 .current {
   color: var(--accent-color);
+}
+
+.hidden {
+  display: none;
 }
 /*===============END COMPONENTS======================*/
 /*==================FOOTER=======================*/
