@@ -168,6 +168,7 @@ body {
 .footer-link-location {
   color: var(--accent-color-text);
 }
+
 .footer-link-address {
   color: rgba(255, 255, 255, 0.6);
 }
