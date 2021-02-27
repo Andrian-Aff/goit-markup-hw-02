@@ -2,18 +2,31 @@
 .navigation {
 }
 .logo {
+    Font family: 'Raleway', sans-serif;
+    Font style: 700px;
+    Font size: 26px;
+    Line height: 31px;
+    Line height: 100%;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 3%;
+}
+
+.first-part-logo {
+   color: #2196F3; 
 }
 
 .navigation-link {
-Font family: 'Roboto', sans-serif;
-Font style: Medium;
-Font size: 14px;
-Line height: 16px;
-Line height: 100%;
-Align: Left;
-Vertical align: Top;
-Letter spacing: 2%;
-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    Font style: 500px;
+    Font size: 14px;
+    Line height: 16px;
+    Line height: 100%;
+    Align: Left;
+    Vertical align: Top;
+    Letter spacing: 2%;
+    color: red;
+    
 }
 
 .contacts-link {
@@ -40,7 +53,7 @@ color: #212121;
 }
 
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .list {
