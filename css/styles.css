@@ -1,6 +1,5 @@
 /*===============Header======================*/
-.navigation {
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -39,6 +38,7 @@
 
 /*===============End Header======================*/
 
+/*===============Hero======================*/
 .hero-section {
   background-color: #2f303a;
 }
@@ -51,6 +51,9 @@
   background-color: #2196f3;
 }
 
+/*===============End Hero======================*/
+
+
 .link {
   text-decoration: none;
 }
@@ -60,14 +63,25 @@
   font-style: normal;
 }
 
-.footer {
-  background-color: #2f303a;
-}
-
 .address {
   font-style: normal;
+}
+
+
+}
+/*==================Footer=======================*/
+.footer {
+ background-color: black;
 }
 
 .second-part-logo {
   color: #fff;
 }
+
+.footer-address {
+  color: #fff;
+}
+.footer-link-address {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*===============End Footer======================*/
